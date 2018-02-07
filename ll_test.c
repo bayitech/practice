@@ -11,6 +11,6 @@ void create_list(int *nums, int size)
 {
 	for(int i = 0; i < size; i++)
 	{
-		add_entry(nums[i]);
+		insert_entry(nums[i]);
 	}
 }

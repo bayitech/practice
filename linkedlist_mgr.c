@@ -95,7 +95,7 @@ void reverse()
 	head = prev;
 }
 
-void add_entry(int value)
+void insert_entry(int value)
 {
 	node_s *new = malloc(sizeof(*head));
 	node_s *iter = head;

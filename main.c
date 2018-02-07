@@ -6,20 +6,43 @@
  */
 #include <stdio.h>
 #include <stdlib.h>
-#include "linkedlist_mgr.h"
 
+#include "linkedlist_mgr.h"
+#include "tree_mgr.h"
 #include "ll_test.h"
 
 void test1();
 void test2();
 void test3();
 
+void tree_in_order_print();
+
 int main()
 {
 	test1();
 	test2();
 	test3();
+	tree_in_order_print();
 	return 0;
+}
+
+void tree_in_order_print()
+{
+	int a[] = { 5, 3, 6, 1, 4, 7 };
+	int size = sizeof(a) / sizeof(int);
+
+	for(int i = 0; i < size; i++)
+	{
+		tree_insert(a[i]);
+	}
+
+	// print in-order
+	tree_print_ascending();
+
+	// print breath-first
+	tree_print_breath_first_left_to_right();
+
+	destroy_tree();
 }
 
 void test1()

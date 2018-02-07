@@ -15,7 +15,7 @@ typedef struct _node_
 } node_s;
 
 extern void reverse();
-extern void add_entry(int value);
+extern void insert_entry(int value);
 extern void delete_entry(int value);
 extern node_s *find_entry(int value);
 extern void print_list();
