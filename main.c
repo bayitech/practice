@@ -1,7 +1,4 @@
 /*
- * main.c
- *
- *  Created on: Feb 1, 2018
  *      Author: Namsoo Kim
  */
 #include <stdio.h>
