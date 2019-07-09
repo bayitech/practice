@@ -1,8 +1,6 @@
 /*
- * main.c
- *
- *  Created on: Feb 1, 2018
- *      Author: nskim
+ *      Author: Namsoo Kim
+ *      File: main.c
  */
 #include <stdio.h>
 #include <stdlib.h>
